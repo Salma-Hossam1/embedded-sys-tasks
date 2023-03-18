@@ -90,27 +90,27 @@ int main()
             break;
         }
         break;
-        /*case 3:
+       case 3:
         printf("Enter your roll number ");
         scanf("%d",&en);
+        int z=0;
         for(int j=0;j<100;j++)
         {
             if(x[j].roll_num==en)
             {
-                x[j].name="0";
+
+                for(int i=0;i<30;i++)
+                    x[j].name[i]=0;
                 x[j].roll_num=0;
                 x[j].maths=0;
                 x[j].physics=0;
                 x[j].chem=0;
-                
+                    z=1;
             }
-            else
-            {
-                printf("Invalid roll number\n");
-            }
-            break;
+
         }
-        break;*/
+        if(z==0)printf("Invalid roll number\n");
+        break;
         case 4:
         printf("Enter your roll number ");
         scanf("%d",&en);
