@@ -7,9 +7,9 @@
 extern unsigned int ptr;
 
 typedef struct{
+    unsigned int month;
+    unsigned int day;
     unsigned short year;
-    unsigned char month;
-    unsigned char day;
 }transaction_d;
 
 transaction_d obj2;

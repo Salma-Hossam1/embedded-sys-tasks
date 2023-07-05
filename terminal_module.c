@@ -34,7 +34,7 @@ void isCardExpired (void)
         }
         else if(obj.month == obj2.month)
         {
-            if(obj.day >= obj2.month)
+            if(obj.day >= obj2.day)
             {
                 printf("The card is not expired\n");
                 GetTransactionAmount();

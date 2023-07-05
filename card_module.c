@@ -14,7 +14,6 @@ void GetExpirationDate (expiration_d *New)
     scanf("%i",&(New -> day));
     scanf("%i",&(New -> month));
     scanf("%i",&(New -> year));
-
 }
 void getCardHolderName (void)
 {

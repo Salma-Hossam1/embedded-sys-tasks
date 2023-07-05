@@ -8,8 +8,7 @@ void StartApp (void);
 int main()
 {
 
-       StartApp ();
-
+      StartApp ();
 
     return 0;
 }
